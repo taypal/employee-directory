@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "first_name": "Cobb",
+        "email": "extractorcobb@inception.com",
+        "role": "Extractor"
+    },
+    {
+        "id": 2,
+        "first_name": "Arthur",
+        "email": "pointmanarthur@inception.com",
+        "role": "Point Man"
+    },
+    {
+        "id": 3,
+        "first_name": "Ariadne",
+        "email": "architectariadne@inception.com",
+        "role": "Architect"
+    },
+    {
+        "id": 4,
+        "first_name": "Yusuf",
+        "email": "chemistyusuf@inception.com",
+        "role": "Chemist"
+    },
+    {
+        "id": 5,
+        "first_name": "Eames",
+        "email": "forgereames@inception.com",
+        "role": "Forger"
+    },
+    {
+        "id": 6,
+        "first_name": "Fischer",
+        "email": "robertfischer@inception.com",
+        "role": "Dreamer"
+    }
+]
