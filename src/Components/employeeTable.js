@@ -2,7 +2,7 @@ import React from "react";
 import Employee from "./employee";
 import employeeList from "../employee.json";
 
-function Table() {
+function Table(props) {
     return (
         <table>
             <tr>
