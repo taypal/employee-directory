@@ -1,7 +1,6 @@
-import React, { Conponent, Component } from "react";
+import React, { Component } from "react";
 import Employee from "./employee";
 import employeeList from "../employee.json";
-import employee from "./employee";
 
 class Table extends Component {
 
@@ -14,17 +13,18 @@ class Table extends Component {
             <div>
                 <table>
                     <tr>
-                        <td>id</td>
-                        <td>first_name</td>
-                        <td>email</td>
-                        <td>role</td>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Email</td>
+                        <td>Role</td>
                     </tr>
-                    {this.state.employeeList.map(employee => (
+                    {this.state.employeeList.map(employeeList => (
 
                         <Employee
-                            name={employee.first_name}
-                            email={employee.email}
-                            position={employee.role}
+                            id={employeeList.id}
+                            first_name={employeeList.first_name}
+                            email={employeeList.email}
+                            role={employeeList.role}
                         />
                     ))}
                 </table>

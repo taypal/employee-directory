@@ -1,10 +1,11 @@
 import React from "react";
 import Table from "./Components/employeeTable";
+import Header from "./Components/header";
 
 function App() {
     return (
         <div>
-            <header />
+            <Header />
             <Table />
         </div>
     )
