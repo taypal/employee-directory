@@ -1,12 +1,10 @@
 import React from "react";
-import Table from "./Components/employeeTable";
-import Header from "./Components/header";
+import Compiling from "./Components/compiling";
 
 function App() {
     return (
         <div>
-            <Header />
-            <Table />
+            <Compiling />
         </div>
     )
 }
