@@ -3,13 +3,14 @@ import React from "react";
 
 function Reset(props) {
     return (
-        <div>
+        <div className="container">
             <form>
                 {props.children}
-                <button onClick={props.handleListReset}>
-                    Reset
+                <button class="btn btn-danger" onClick={props.handleListReset}>
+                    Reset List
                 </button>
             </form>
+            <span class="border border-bottom-5"></span>
         </div>
     )
 }

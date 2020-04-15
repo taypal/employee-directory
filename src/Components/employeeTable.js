@@ -3,8 +3,8 @@ import React from "react";
 function Table(props) {
 
     return (
-        <div>
-            <table>
+        <div class="container">
+            <table class="table table-bordered">
                 <tr>
                     {/* <td>ID</td> */}
                     <td>Name</td>
