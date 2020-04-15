@@ -6,6 +6,8 @@ import Search from "./search";
 import employeeList from "../employee.json";
 import Filter from './filter';
 import Sort from "./sort";
+import Employee from "./employee";
+
 
 class Compiling extends Component {
     state = {
@@ -40,7 +42,7 @@ class Compiling extends Component {
         })
     };
 
-    handleSortSumbit = event => {
+    handleSortSubmit = event => {
         event.preventDefault();
         var sorted = this.state.sort;
         var empty = this.state.employeeList;
@@ -93,12 +95,12 @@ class Compiling extends Component {
 
                 <Table>
                     {this.state.employeeList[0] ? (
-                        this.state.employeeList.map(Employee => (
+                        this.state.employeeList.map(employee => (
                             <Employee
-                                id={employeeList.id}
-                                first_name={employeeList.first_name}
-                                email={employeeList.email}
-                                role={employeeList.role}
+                                id={employee.id}
+                                first_name={employee.first_name}
+                                email={employee.email}
+                                role={employee.role}
                             />
                         ))
                     ) : (<h5>Not found</h5>)

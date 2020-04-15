@@ -13,7 +13,7 @@ function Search(props) {
                 id="search"
             />
 
-            <button>
+            <button onClick={props.handleFormSubmit}>
                 Search Team Member
             </button>
         </div>

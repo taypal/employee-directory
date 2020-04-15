@@ -17,7 +17,7 @@ function Filter(props) {
                 <option value="Chemist">Chemist</option>
                 <option value="Forger">Forger</option>
             </select>
-            <button>
+            <button onClick={props.handleFilterSubmit}>
                 Filter by role
             </button>
 

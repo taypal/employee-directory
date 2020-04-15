@@ -6,7 +6,7 @@ function Table(props) {
         <div>
             <table>
                 <tr>
-                    <td>ID</td>
+                    {/* <td>ID</td> */}
                     <td>Name</td>
                     <td>Email</td>
                     <td>Role</td>

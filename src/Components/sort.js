@@ -15,7 +15,7 @@ function Sort(props) {
 
             </select>
 
-            <button>
+            <button onClick={props.handleSortSubmit}>
                 Sort
             </button>
         </div>
